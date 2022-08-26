@@ -108,11 +108,15 @@ try
         SeedData.EnsureSeedData(app);
         Log.Information("Done seeding database. Exiting.");
     }
-    using (var scope = app.Services.GetRequiredService<IServiceScopeFactory>().CreateScope())
+    else
     {
-        var context = scope.ServiceProvider.GetService<ApplicationDbContext>();
-        context.Database.Migrate();
+       using (var scope = app.Services.GetRequiredService<IServiceScopeFactory>().CreateScope())
+        {
+            var context = scope.ServiceProvider.GetService<ApplicationDbContext>();
+            context.Database.Migrate();
+        }
     }
+
     app.UseSwagger();
     app.UseSwaggerUI();
     app.Run();
