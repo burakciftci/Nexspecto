@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hDIGomIuP1anYlnUlcLuZbCKYHQ1vICvBEf12SVPwlS4m9+8KsOhfLqwJJKzPoUvhNh8YSmQylLL8F5NEChRXA==",
+  "dgSpecHash": "33cEiqMkZK8E/7qkQERxp0FN+JRqExVGSl53Ab1nSXmuTgbFSFbXkI0xQCUHGXXNc5Im0DDmjSAJWD72RheI3Q==",
   "success": true,
-  "projectFilePath": "/Users/burakciftci/Documents/KodBase/src/Services/Identity.Api/Identity.Api.csproj",
+  "projectFilePath": "/Users/burakciftci/Desktop/Nexspecto/src/Services/Identity.Api/Identity.Api.csproj",
   "expectedPackageFiles": [
     "/Users/burakciftci/.nuget/packages/automapper/11.0.0/automapper.11.0.0.nupkg.sha512",
     "/Users/burakciftci/.nuget/packages/dotnetcore.cap/6.0.1/dotnetcore.cap.6.0.1.nupkg.sha512",

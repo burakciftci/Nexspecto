@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/burakciftci/Documents/KodBase/src/Services/Form.Api/Form.Api.csproj": {}
+    "/Users/burakciftci/Desktop/Nexspecto/src/Services/Form.Api/Form.Api.csproj": {}
   },
   "projects": {
-    "/Users/burakciftci/Documents/KodBase/src/Services/Form.Api/Form.Api.csproj": {
+    "/Users/burakciftci/Desktop/Nexspecto/src/Services/Form.Api/Form.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/burakciftci/Documents/KodBase/src/Services/Form.Api/Form.Api.csproj",
+        "projectUniqueName": "/Users/burakciftci/Desktop/Nexspecto/src/Services/Form.Api/Form.Api.csproj",
         "projectName": "Form.Api",
-        "projectPath": "/Users/burakciftci/Documents/KodBase/src/Services/Form.Api/Form.Api.csproj",
+        "projectPath": "/Users/burakciftci/Desktop/Nexspecto/src/Services/Form.Api/Form.Api.csproj",
         "packagesPath": "/Users/burakciftci/.nuget/packages/",
-        "outputPath": "/Users/burakciftci/Documents/KodBase/src/Services/Form.Api/obj/",
+        "outputPath": "/Users/burakciftci/Desktop/Nexspecto/src/Services/Form.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/burakciftci/.nuget/NuGet/NuGet.Config"

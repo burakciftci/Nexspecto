@@ -8422,11 +8422,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/burakciftci/Documents/KodBase/src/Services/Identity.Api/Identity.Api.csproj",
+      "projectUniqueName": "/Users/burakciftci/Desktop/Nexspecto/src/Services/Identity.Api/Identity.Api.csproj",
       "projectName": "Identity.Api",
-      "projectPath": "/Users/burakciftci/Documents/KodBase/src/Services/Identity.Api/Identity.Api.csproj",
+      "projectPath": "/Users/burakciftci/Desktop/Nexspecto/src/Services/Identity.Api/Identity.Api.csproj",
       "packagesPath": "/Users/burakciftci/.nuget/packages/",
-      "outputPath": "/Users/burakciftci/Documents/KodBase/src/Services/Identity.Api/obj/",
+      "outputPath": "/Users/burakciftci/Desktop/Nexspecto/src/Services/Identity.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/burakciftci/.nuget/NuGet/NuGet.Config"
@@ -8441,8 +8441,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/burakciftci/Documents/KodBase/src/BuildingBlocks/Infrastructure/BuildingBlocks.Infrastructure.csproj": {
-              "projectPath": "/Users/burakciftci/Documents/KodBase/src/BuildingBlocks/Infrastructure/BuildingBlocks.Infrastructure.csproj"
+            "/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/Infrastructure/BuildingBlocks.Infrastructure.csproj": {
+              "projectPath": "/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/Infrastructure/BuildingBlocks.Infrastructure.csproj"
             }
           }
         }

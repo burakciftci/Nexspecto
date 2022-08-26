@@ -2,16 +2,14 @@
 
 #nullable disable
 
-namespace Form.Api.Infrastructure.Migrations
+namespace Identity.Api.Migrations
 {
-    public partial class v2_Initial_Migrations : Migration
+    public partial class v3_OpenId_Added : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.Sql(@"
-              
-            use IdentityDb
-            INSERT INTO IdentityDb.[Identity].ClientScope (Scope, ClientId) VALUES (N'openid', 1)
+                INSERT INTO IdentityDb.[Identity].ClientScope (Scope, ClientId) VALUES (N'openid', 1)
             
             ");
         }

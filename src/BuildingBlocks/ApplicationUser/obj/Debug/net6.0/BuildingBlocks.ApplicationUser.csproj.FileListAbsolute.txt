@@ -22,3 +22,15 @@ D:/Projects/BiTedavi/bitedavi2/src/BuildingBlocks/ApplicationUser/obj/Debug/net6
 /Users/burakciftci/Documents/KodBase/src/BuildingBlocks/ApplicationUser/obj/Debug/net6.0/refint/BuildingBlocks.ApplicationUser.dll
 /Users/burakciftci/Documents/KodBase/src/BuildingBlocks/ApplicationUser/obj/Debug/net6.0/BuildingBlocks.ApplicationUser.pdb
 /Users/burakciftci/Documents/KodBase/src/BuildingBlocks/ApplicationUser/obj/Debug/net6.0/ref/BuildingBlocks.ApplicationUser.dll
+/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/bin/Debug/net6.0/BuildingBlocks.ApplicationUser.deps.json
+/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/bin/Debug/net6.0/BuildingBlocks.ApplicationUser.dll
+/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/bin/Debug/net6.0/BuildingBlocks.ApplicationUser.pdb
+/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/obj/Debug/net6.0/BuildingBlocks.ApplicationUser.csproj.AssemblyReference.cache
+/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/obj/Debug/net6.0/BuildingBlocks.ApplicationUser.GeneratedMSBuildEditorConfig.editorconfig
+/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/obj/Debug/net6.0/BuildingBlocks.ApplicationUser.AssemblyInfoInputs.cache
+/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/obj/Debug/net6.0/BuildingBlocks.ApplicationUser.AssemblyInfo.cs
+/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/obj/Debug/net6.0/BuildingBlocks.ApplicationUser.csproj.CoreCompileInputs.cache
+/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/obj/Debug/net6.0/BuildingBlocks.ApplicationUser.dll
+/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/obj/Debug/net6.0/refint/BuildingBlocks.ApplicationUser.dll
+/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/obj/Debug/net6.0/BuildingBlocks.ApplicationUser.pdb
+/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/obj/Debug/net6.0/ref/BuildingBlocks.ApplicationUser.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/burakciftci/Documents/KodBase/src/Gateway/Gateway.csproj": {}
+    "/Users/burakciftci/Desktop/Nexspecto/src/Gateway/Gateway.csproj": {}
   },
   "projects": {
-    "/Users/burakciftci/Documents/KodBase/src/Gateway/Gateway.csproj": {
+    "/Users/burakciftci/Desktop/Nexspecto/src/Gateway/Gateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/burakciftci/Documents/KodBase/src/Gateway/Gateway.csproj",
+        "projectUniqueName": "/Users/burakciftci/Desktop/Nexspecto/src/Gateway/Gateway.csproj",
         "projectName": "Gateway",
-        "projectPath": "/Users/burakciftci/Documents/KodBase/src/Gateway/Gateway.csproj",
+        "projectPath": "/Users/burakciftci/Desktop/Nexspecto/src/Gateway/Gateway.csproj",
         "packagesPath": "/Users/burakciftci/.nuget/packages/",
-        "outputPath": "/Users/burakciftci/Documents/KodBase/src/Gateway/obj/",
+        "outputPath": "/Users/burakciftci/Desktop/Nexspecto/src/Gateway/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/burakciftci/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7H2IE9lKIyvR7tVUPZyF/HUfykpI2COtZmRHWoxStk00dNfRkbrff1cQ2HFNbV2SpyURkqQNjhUx4YnsG1cxWw==",
+  "dgSpecHash": "mPQyoXD7/DFXf45U3SZhPnsGX9ZTq14Da4DuUWFQiZfPh2U2EKVZCs54lJu//oTe1dnlThFl7NUEY5zsTN6X0Q==",
   "success": true,
-  "projectFilePath": "/Users/burakciftci/Documents/KodBase/src/Gateway/Gateway.csproj",
+  "projectFilePath": "/Users/burakciftci/Desktop/Nexspecto/src/Gateway/Gateway.csproj",
   "expectedPackageFiles": [
     "/Users/burakciftci/.nuget/packages/fluentvalidation/10.3.6/fluentvalidation.10.3.6.nupkg.sha512",
     "/Users/burakciftci/.nuget/packages/microsoft.aspnetcore.jsonpatch/6.0.1/microsoft.aspnetcore.jsonpatch.6.0.1.nupkg.sha512",

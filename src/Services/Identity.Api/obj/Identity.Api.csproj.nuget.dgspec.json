@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/burakciftci/Documents/KodBase/src/Services/Identity.Api/Identity.Api.csproj": {}
+    "/Users/burakciftci/Desktop/Nexspecto/src/Services/Identity.Api/Identity.Api.csproj": {}
   },
   "projects": {
-    "/Users/burakciftci/Documents/KodBase/src/BuildingBlocks/ApplicationUser/BuildingBlocks.ApplicationUser.csproj": {
+    "/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/BuildingBlocks.ApplicationUser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/burakciftci/Documents/KodBase/src/BuildingBlocks/ApplicationUser/BuildingBlocks.ApplicationUser.csproj",
+        "projectUniqueName": "/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/BuildingBlocks.ApplicationUser.csproj",
         "projectName": "BuildingBlocks.ApplicationUser",
-        "projectPath": "/Users/burakciftci/Documents/KodBase/src/BuildingBlocks/ApplicationUser/BuildingBlocks.ApplicationUser.csproj",
+        "projectPath": "/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/BuildingBlocks.ApplicationUser.csproj",
         "packagesPath": "/Users/burakciftci/.nuget/packages/",
-        "outputPath": "/Users/burakciftci/Documents/KodBase/src/BuildingBlocks/ApplicationUser/obj/",
+        "outputPath": "/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/burakciftci/.nuget/NuGet/NuGet.Config"
@@ -74,14 +74,14 @@
         }
       }
     },
-    "/Users/burakciftci/Documents/KodBase/src/BuildingBlocks/Infrastructure/BuildingBlocks.Infrastructure.csproj": {
+    "/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/Infrastructure/BuildingBlocks.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/burakciftci/Documents/KodBase/src/BuildingBlocks/Infrastructure/BuildingBlocks.Infrastructure.csproj",
+        "projectUniqueName": "/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/Infrastructure/BuildingBlocks.Infrastructure.csproj",
         "projectName": "BuildingBlocks.Infrastructure",
-        "projectPath": "/Users/burakciftci/Documents/KodBase/src/BuildingBlocks/Infrastructure/BuildingBlocks.Infrastructure.csproj",
+        "projectPath": "/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/Infrastructure/BuildingBlocks.Infrastructure.csproj",
         "packagesPath": "/Users/burakciftci/.nuget/packages/",
-        "outputPath": "/Users/burakciftci/Documents/KodBase/src/BuildingBlocks/Infrastructure/obj/",
+        "outputPath": "/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/burakciftci/.nuget/NuGet/NuGet.Config"
@@ -96,8 +96,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/burakciftci/Documents/KodBase/src/BuildingBlocks/ApplicationUser/BuildingBlocks.ApplicationUser.csproj": {
-                "projectPath": "/Users/burakciftci/Documents/KodBase/src/BuildingBlocks/ApplicationUser/BuildingBlocks.ApplicationUser.csproj"
+              "/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/BuildingBlocks.ApplicationUser.csproj": {
+                "projectPath": "/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/BuildingBlocks.ApplicationUser.csproj"
               }
             }
           }
@@ -140,14 +140,14 @@
         }
       }
     },
-    "/Users/burakciftci/Documents/KodBase/src/Services/Identity.Api/Identity.Api.csproj": {
+    "/Users/burakciftci/Desktop/Nexspecto/src/Services/Identity.Api/Identity.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/burakciftci/Documents/KodBase/src/Services/Identity.Api/Identity.Api.csproj",
+        "projectUniqueName": "/Users/burakciftci/Desktop/Nexspecto/src/Services/Identity.Api/Identity.Api.csproj",
         "projectName": "Identity.Api",
-        "projectPath": "/Users/burakciftci/Documents/KodBase/src/Services/Identity.Api/Identity.Api.csproj",
+        "projectPath": "/Users/burakciftci/Desktop/Nexspecto/src/Services/Identity.Api/Identity.Api.csproj",
         "packagesPath": "/Users/burakciftci/.nuget/packages/",
-        "outputPath": "/Users/burakciftci/Documents/KodBase/src/Services/Identity.Api/obj/",
+        "outputPath": "/Users/burakciftci/Desktop/Nexspecto/src/Services/Identity.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/burakciftci/.nuget/NuGet/NuGet.Config"
@@ -162,8 +162,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/burakciftci/Documents/KodBase/src/BuildingBlocks/Infrastructure/BuildingBlocks.Infrastructure.csproj": {
-                "projectPath": "/Users/burakciftci/Documents/KodBase/src/BuildingBlocks/Infrastructure/BuildingBlocks.Infrastructure.csproj"
+              "/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/Infrastructure/BuildingBlocks.Infrastructure.csproj": {
+                "projectPath": "/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/Infrastructure/BuildingBlocks.Infrastructure.csproj"
               }
             }
           }

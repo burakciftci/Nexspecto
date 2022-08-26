@@ -1387,11 +1387,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/burakciftci/Documents/KodBase/src/BuildingBlocks/ApplicationUser/BuildingBlocks.ApplicationUser.csproj",
+      "projectUniqueName": "/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/BuildingBlocks.ApplicationUser.csproj",
       "projectName": "BuildingBlocks.ApplicationUser",
-      "projectPath": "/Users/burakciftci/Documents/KodBase/src/BuildingBlocks/ApplicationUser/BuildingBlocks.ApplicationUser.csproj",
+      "projectPath": "/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/BuildingBlocks.ApplicationUser.csproj",
       "packagesPath": "/Users/burakciftci/.nuget/packages/",
-      "outputPath": "/Users/burakciftci/Documents/KodBase/src/BuildingBlocks/ApplicationUser/obj/",
+      "outputPath": "/Users/burakciftci/Desktop/Nexspecto/src/BuildingBlocks/ApplicationUser/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/burakciftci/.nuget/NuGet/NuGet.Config"
