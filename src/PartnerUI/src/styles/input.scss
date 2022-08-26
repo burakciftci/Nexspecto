@@ -1,0 +1,19 @@
+.el-input {
+  .el-input__inner {
+    border-radius: 12px;
+    border: solid 1px #93C6EA;
+    background-color: #fff;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0B0B45;
+    &:focus {
+        border: solid 1px #303133 !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 1536px) {.el-input {.el-input__inner {height: 30px;line-height: 30px;font-size: 14px;}input[type='password'] {font-size:32px;letter-spacing: 0.125em;}input[type='password'] { &::placeholder { font-size: 14px !important;letter-spacing: normal; }}}}
+@media (min-width: 1537px) and (max-width: 1920px) {.el-input {.el-input__inner {height: 40px;line-height: 40px;font-size: 16px;}input[type='password'] {font-size:32px;letter-spacing: 0.125em;}input[type='password'] { &::placeholder { font-size: 16px !important;letter-spacing: normal; }}}}
+@media only screen and (min-width: 1921px){.el-input {.el-input__inner {height: 50px;line-height: 50px;font-size: 18px;}input[type='password'] {font-size:32px;letter-spacing: 0.125em;}input[type='password'] { &::placeholder { font-size: 18px !important;letter-spacing: normal; }}}}

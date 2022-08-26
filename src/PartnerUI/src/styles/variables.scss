@@ -1,0 +1,75 @@
+// base color
+$blue:#324157;
+$light-blue:#3A71A8;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+
+// sidebar
+$menuText:#8C9914;
+$menuActiveText:#0B0B45;
+$subMenuActiveText:#f4f4f5; // https://github.com/ElemeFE/element/issues/12951
+
+$menuBg:transparent;
+$menuHover: var(--el-menu-hover-bg-color);
+
+$subMenuBg:#1f2d3d;
+$subMenuHover:#001528;
+
+$sideBarWidth: 240px;
+
+
+
+//yeni tasarım tanımlamaları
+
+$primaryButtonHover: #0B0B45;
+$primaryButtonActive: #0B0B45;
+$actionButtonHover: #ff9573;
+$actionButtonActive: #ff7c52;
+$secondaryButtonHover: #bfbfbf;
+$secondaryButtonActive: #909399;
+
+
+
+//yeni tasarım bitiş
+
+
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}
+
+
+// margin tanımlamaları
+
+@mixin offset-margin($margin, $value){
+  margin-#{$margin}: $value;
+}
+
+@for $i from 0 through 100 {
+  @each $margin in top, left, bottom, right {
+
+    .margin-#{$margin}-#{$i}{
+      @include offset-margin($margin, 1px * $i) 
+    }
+
+  }
+}
+
+//global tanımlamalar
+
+.text-center {text-align: center;}
+.text-right {text-align: right;}
+.text-left {text-align: left;}

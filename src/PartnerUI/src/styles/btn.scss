@@ -1,0 +1,221 @@
+@import './variables.scss';
+
+//button hover, active, disable css start
+
+.el-button {
+  border-radius: 12px;
+  //action-button
+  &.el-button--action {
+    background-image: linear-gradient(to right, $actionButtonHover, $actionButtonActive);
+    color: #fff;
+    border: none;
+    &:hover:enabled {
+      background: $actionButtonHover;
+      border: none;
+    }
+    &:active:enabled {
+      background: $actionButtonActive;
+      border: none;
+    }
+    &:disabled {
+      opacity: 0.3;
+      pointer-events: not-allowed;
+      border: none;
+      background: $actionButtonActive;
+      color: #fff;
+    }
+    &.is-plain {
+      border: solid 1px $actionButtonActive;
+      background: #fff;
+      color: $actionButtonActive;
+      &:hover:enabled {
+        border: solid 1px #ff9573;
+        background-color: rgba(255, 149, 115, 0.05);
+        color: $primaryButtonHover;
+      }
+      &:active:enabled {
+        border: solid 1px #ff7c52;
+        background-color: rgba(255, 124, 82, 0.1);
+        color: $actionButtonActive;
+      }
+      &:disabled {
+        opacity: 0.3;
+        border: solid 1px $actionButtonActive;
+        background: #fff;
+        color: $actionButtonActive;
+      }
+    }
+  }
+  //primary-button
+  &.el-button--primary {
+    background-image: linear-gradient(to right, $primaryButtonHover, $primaryButtonActive);
+    color: #fff;
+    border: none;
+    &:hover:enabled {
+      background: $primaryButtonHover;
+      border: none;
+    }
+    &:active:enabled {
+      background: $primaryButtonActive;
+      border: none;
+    }
+    &:disabled {
+      opacity: 0.3;
+      pointer-events: not-allowed;
+      border: none;
+      background: $primaryButtonActive;
+      color: #fff;
+    }
+    &.is-plain {
+      border: solid 1px $primaryButtonActive;
+      background: #fff;
+      color: $primaryButtonActive;
+      &:hover:enabled {
+        border: solid 1px $primaryButtonHover;
+        background-color: rgba(253, 95, 115, 0.05);
+        color: $primaryButtonHover;
+      }
+      &:active:enabled {
+        border: solid 1px $primaryButtonActive;
+        background-color: rgba(214, 0, 28, 0.1);
+        color: $primaryButtonActive;
+      }
+      &:disabled {
+        opacity: 0.3;
+        border: solid 1px $primaryButtonActive;
+        background: #fff;
+        color: $primaryButtonActive;
+      }
+    }
+  }
+  //secondary-button
+  &.el-button--secondary {
+    background-image: linear-gradient(to right, $secondaryButtonHover, $secondaryButtonActive);
+    color: #fff;
+    border: none;
+    &:hover:enabled {
+      background: $secondaryButtonHover;
+      border: none;
+    }
+    &:active:enabled {
+      background: $secondaryButtonActive;
+      border: none;
+    }
+    &:disabled {
+      opacity: 0.3;
+      pointer-events: not-allowed;
+      border: none;
+      background: $secondaryButtonActive;
+      color: #fff;
+    }
+    &.is-plain {
+      border: solid 1px $secondaryButtonActive;
+      background: #fff;
+      color: $secondaryButtonActive;
+      &:hover:enabled {
+        border: solid 1px #bfbfbf;
+        background-color: rgba(191, 191, 191, 0.05);
+        color: $secondaryButtonHover;
+      }
+      &:active:enabled {
+        border: solid 1px #909399;
+        background-color: rgba(144, 147, 153, 0.1);
+        color: $secondaryButtonActive;
+      }
+      &:disabled {
+        opacity: 0.3;
+        border: solid 1px $secondaryButtonActive;
+        background: #fff;
+        color: $secondaryButtonActive;
+      }
+    }
+  }
+
+  //ghost-button
+  &.el-button--ghost {
+    border: solid 1px #ddd;
+    background-color: #fff;
+    color: #303133;
+    &:hover:enabled {
+      border: solid 1px #ddd;
+      background-color: rgba(237, 237, 237, 0.05);
+      color: #bfbfbf;
+    }
+    &:active:enabled {
+      border: solid 1px #909399;
+      background-color: rgba(237, 237, 237, 0.1);
+      color: #303133;
+    }
+    &:disabled {
+      border: solid 1px #ddd;
+      background-color: #fff;
+      color: #303133;
+      opacity: 0.3;
+    }
+  }
+}
+
+//button hover, active, disable css end
+
+//button responsive sizes start
+
+.el-button {
+  font-size: 14px;
+  // min-width: 140px;
+  &.el-button--small {
+    // min-width: 120px;
+    height: 30px;
+    font-size: 14px;
+  }
+  &.el-button--medium {
+    // min-width: 140px;
+    height: 40px;
+    font-size: 14px;
+  }
+  &.el-button--large {
+    // min-width: 144px;
+    height: 50px;
+    font-size: 16px;
+  }
+  &.el-button--xlarge {
+    // min-width: 168px;
+    height: 60px;
+    font-size: 16px;
+  }
+}
+
+
+//icon butonlar için düzenleme 
+.el-button.icon-button {
+  padding: 0;
+  background: none;
+  &:hover {
+    background: none;
+  }
+}
+@media only screen and (max-width: 1536px) {
+  .el-button {
+    // min-width: 140px !important;
+    height: 30px !important;
+    font-size: 14px !important;
+  }
+}
+@media (min-width: 1537px) and (max-width: 1920px) {
+  .el-button {
+    // min-width: 140px !important;
+    height: 40px !important;
+    font-size: 16px !important;
+  }
+}
+@media only screen and (min-width: 1921px){
+  .el-button {
+    // min-width: 144px !important;
+    height: 50px !important;
+    font-size: 18px !important;
+  }
+}
+
+//button responsive sizes end
+
+
+

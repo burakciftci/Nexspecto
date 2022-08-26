@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+button, input, optgroup, select, textarea {font-family: 'Poppins', sans-serif;font-weight: normal !important;}
+
+p, h1, h2, h3, h4, h5, h6 {font-family: 'Poppins', sans-serif;color: #303133;}
+
+h1, h2, h3, h4, h5, h6 {font-weight: 500;}
+
+//form labels
+.el-form {
+    .el-form-item {
+        .el-form-item__label {font-weight: normal;font-stretch: normal;font-style: normal;letter-spacing: normal;color: #0B0B45;
+        }
+    }
+}
+
+//media queries
+@media screen and (max-width: 1536px) {
+    h1 {font-size: 44px;}
+    h2 {font-size: 32px;}
+    h3 {font-size: 21px;}
+    p {font-size: 12px;}
+    .el-form-item__label {font-size: 14px;}
+}
+@media (min-width: 1537px) and (max-width: 1920px) {
+    h1 {font-size: 57px;}
+    h2 {font-size: 42px;}
+    h3 {font-size: 27px;}
+    p {font-size: 16px;}
+    .el-form-item__label {font-size: 18px;line-height: 36px;}
+}
+@media (min-width: 1921px) and (max-width: 2560px) {
+    h1 {font-size: 74px;}
+    h2 {font-size: 55px;}
+    h3 {font-size: 35px;}
+    p {font-size: 21px;}
+    .el-form-item__label {font-size: 24px;}
+}
+@media screen and (min-width: 2561px) {
+    h1 {font-size: 96px;}
+    h2 {font-size: 72px;}
+    h3 {font-size: 46px;}
+    p {font-size: 27px;}
+    .el-form-item__label {font-size: 30px;line-height: 40px;}
+}

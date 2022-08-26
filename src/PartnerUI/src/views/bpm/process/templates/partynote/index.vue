@@ -1,0 +1,113 @@
+<template>
+  <div>
+    <el-col :span="formItemContent.cols">
+      <el-form-item>
+        <el-table :data="noteList" style="width: 100%;">
+          <el-table-column :label="$t('personEdit.user')" prop="userDescription"/>
+          <el-table-column :label="$t('personEdit.description')" prop="description" />
+          <el-table-column :label="$t('personEdit.subject')" prop="subject" />
+          <el-table-column :label="$t('personEdit.date')">
+            <template slot-scope="scope">
+              {{ $filters.parseTime(scope.row.fromDate,'{dd}.{mm}.{yyyy}') }}
+            </template>
+          </el-table-column>
+        </el-table>
+      </el-form-item>
+      <div>
+        <el-pagination
+          :current-page="listQuery.pageIndex"
+          :page-sizes="[10,20,30, 50]"
+          :page-size="listQuery.pageSize"
+          :total="count"
+          background
+          layout="total, sizes, prev, pager, next, jumper"
+          @size-change="handleSizeChange"
+          @current-change="handleCurrentChange"
+        />
+      </div>
+    </el-col>
+  </div>
+
+</template>
+
+<script>
+
+import noteApi from '@/api/crm/partyNote'
+
+export default {
+
+  props: {
+    modelValue: {
+      type: Object,
+      default: () => {}
+    },
+    formItemContent: {
+      type: Object,
+      default: () => {}
+    },
+    index: {
+      type: Number,
+      default: 0
+    },
+    disabled: {
+      type: Boolean,
+      default: false
+    }
+  },
+  emits: ['update:modelValue'],
+  computed: {
+    value: {
+      get() {
+        return this.modelValue
+      },
+      set(value) {
+        this.$emit('update:modelValue', value)
+      }
+    }
+  },
+  data() {
+    return {
+      busy: false,
+      noteList: [],
+      partyId: '',
+      listQuery: {
+        pageIndex: 1,
+        pageSize: 10
+      },
+      count: 0
+    }
+  },
+  mounted() {
+    this.partyId = this.formItemContent.alias
+    this.getNotes()
+  },
+  methods: {
+    getNotes() {
+      this.busy = true
+      noteApi.getActivityNotifications(this.partyId, this.listQuery) // b349f953-2477-4849-985a-6eadf3a7388c
+        .then((v) => {
+          if (v.data.success) {
+            this.noteList = v.data.result.data
+            this.count = v.data.result.count
+          }
+        })
+        .catch((err) => {
+          // this.$notify.error(this.$t('notify.' + err))
+          console.log(err)
+        })
+        .finally(() => {
+          this.busy = false
+        })
+    },
+    handleCurrentChange(val) {
+      this.listQuery.pageIndex = val
+      this.getNotes()
+    },
+    handleSizeChange(val) {
+      this.listQuery.pageSize = val
+      this.getNotes()
+    }
+  }
+}
+
+</script>
